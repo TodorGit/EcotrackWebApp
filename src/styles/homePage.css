@@ -1,0 +1,1310 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* FONTS */
+@font-face{
+    font-family: 'RG BlackItalic';
+    src:url('ppradiogrotesk-blackitalic-webfont.woff') format('woff'),
+    url('ppradiogrotesk-blackitalic-webfont.woff2') format('woff2')
+}
+
+@font-face{
+    font-family: 'RG Black';
+    src:url('ppradiogrotesk-black-webfont.woff') format('woff'),
+    url('ppradiogrotesk-black-webfont.woff2') format('woff2')
+}
+
+@font-face{
+    font-family: 'RG RegularItalic';
+    src:url('ppradiogrotesk-regularitalic-webfont.woff') format('woff'),
+    url('ppradiogrotesk-regularitalic-webfont.woff2') format('woff2')
+}
+
+@font-face{
+    font-family: 'RG Rgular';
+    src:url('ppradiogrotesk-regular-webfont.woff') format('woff'),
+    url('ppradiogrotesk-regular-webfont.woff2') format('woff2')
+}
+
+@font-face{
+    font-family: 'RG ULItalic';
+    src:url('ppradiogrotesk-ultralightitalic-webfont.woff') format('woff'),
+    url('ppradiogrotesk-ultralightitalic-webfont.woff2') format('woff2')
+}
+
+@font-face{
+    font-family: 'RG UltraLight';
+    src:url('ppradiogrotesk-ultralight-webfont.woff') format('woff'),
+    url('ppradiogrotesk-ultralight-webfont.woff2') format('woff2')
+}
+
+
+/* FONTS */
+
+
+/* NAVIGATION */
+
+
+.logo {
+    color: #000;
+    font-family:'RG Rgular';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+
+.NavContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 46px 60px 46px 60px;
+    
+    
+}
+
+
+
+.navLinks {
+    display: flex;
+    justify-content:space-around;
+    width: 45%;
+}
+
+.navLinks a{
+    text-decoration: none !important;
+    color: #000;
+    font-family:'RG UltraLight';
+}
+
+.navLinks li{
+    list-style: none;
+    font-family:'RG Rgular';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    
+}
+
+.joinButton button{
+    padding: 14px 30px;
+    border-radius: 100px;
+    background: #0096F7;
+    border: none;
+    font-family:'RG Rgular';
+    color: #fff;
+}
+
+.aboutUsContainer,
+.dash-header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 5rem 18.4rem;
+}
+
+.headerContainer{
+    margin-bottom: 4rem;
+}
+
+.headerContainer h1,
+.dash-header h1 {
+    color: #000;
+    font-family: 'RG Rgular';
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 95px; 
+}
+
+.dash-header h1 span {
+    color:#000    
+}
+
+.dash-header h1 {
+    color: rgba(0, 0, 0, 0.35);
+}
+
+.createAccountContainer{
+    margin-bottom: 1.87rem ;
+}
+
+.createAccountContainer{
+    color: #000;
+    font-family: 'RG UltraLight';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 140%; 
+}
+
+.createAccountContainer span{
+    color: rgba(0, 0, 0, 0.35);
+    font-family: 'RG UltraLight';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 160%;
+}
+
+.createAccountContainer a{
+    font-family: 'RG Rgular';
+    color: #0096F7;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.intriguedContainer {
+    color: rgba(0, 0, 0, 0.35);
+    font-family: 'RG UltraLight';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 160%; 
+}
+
+
+.smallHeaders {
+    color: rgba(0, 0, 0, 0.35);
+    font-family: 'RG UltraLight';
+    font-size: 15px;
+    margin: 8rem 118.4rem 2rem 18.4rem ;
+    width: 50%;
+    display: flex;
+    
+}
+.hwdContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.hwdHeader{
+    display: flex;
+    justify-content: flex-start;
+    color: #000;
+    font-family: 'RG UltraLight';
+    font-size: 52px;
+    line-height: 120%; 
+    margin: 2rem 18.4rem;
+}
+
+.videoContainer {
+    display: flex;
+    align-items: center;
+    width: 65%;
+    border-radius: 100px;
+    margin-bottom: 1rem;
+
+}
+
+.videoWall{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 100%;
+    transform: translate(-2%);
+}
+
+.textOnTop{
+    position: relative;
+    z-index: 2;
+    width: 20rem;
+    left: 25%;
+    transform: translate(0, 25%);
+
+}
+
+.textOnTop h3 {
+    color: #FFF;
+    font-family: 'RG UltraLight';
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 3.5rem;
+}
+
+.textOnTop button {
+    width: 8.5rem;
+    height: 3rem;
+    font-size: 17px;
+    background: #0096F7;
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    opacity: 85%;
+
+}
+
+.sponsors{
+    display: flex;
+    justify-content: center;
+}
+
+.sponsors ul li {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    opacity: .7;
+    
+}
+
+.sponsors p{
+ 
+    color: rgba(0, 0, 0, 0.35);
+    font-family: 'RG UltraLight';
+    font-size: 15px;
+    width: 5rem;
+    display: flex;
+    transform: translate(25%);
+    
+        
+}
+
+section{
+    width: 100%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Our Services */
+
+.servicesWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-family: 'RG UltraLight';
+
+}
+
+.borders{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-top: rgba(0, 0, 0, 0.35) 1px solid;
+}
+
+.servicesWrapper :nth-child(3){    
+    border-bottom: rgba(0, 0, 0, 0.35) 1px solid ;
+}
+
+
+.Title{
+    display: flex;
+    width: 66%;
+    justify-content: left;
+    align-items: left;
+    padding: 1.5rem 0;
+    cursor: pointer;
+    
+
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: .5s ease-in-out;
+    width: 66%;
+    
+}
+
+.borders.active .answer{
+    max-height: 300px;
+    width: 65%;
+    padding: 1.5rem 0;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+.Title span{
+    transform: translateX(5400%);
+    cursor: pointer;
+}
+
+
+/* Footer */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5.5rem;
+    background-image: url("../images/fu-background.jpg");
+    background-size: cover; 
+}
+
+.fu-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'RG UltraLight' ;
+    color: #fff;
+    padding-top: 3rem;
+}
+
+.fu-header h3 {
+    font-size: 3.25rem;
+}
+
+.fu-header :nth-child(2){
+    opacity: 0.3;
+    padding-bottom: 5.5rem;
+}
+
+.fu-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.5rem;
+    width: 50%;
+}
+
+.fu-form input{
+    width: 33.5rem;
+    height: 3.2rem;
+    margin-bottom: 1.3rem;
+    border-radius: 1.3rem;
+    border: none; 
+    
+}
+
+.fu-form textarea{
+    width: 33.5rem;
+    resize: none;
+    margin-bottom: 1.3rem;
+    min-height: 3.2rem;
+    border-radius: 1.3rem;
+}
+
+::placeholder {
+    font-family: 'RG UltraLight';
+    padding-left: 2.1rem;
+    opacity: 0.6;
+    padding-top: 0.8rem;
+}
+
+.fu-form button{
+    width: 33.5rem;
+    height: 3.2rem;
+    margin-bottom: 1.3rem;
+    border-radius: 2rem;
+    border: none; 
+    font-family:'RG Rgular';
+    color: #fff;
+    background: #0096F7;
+}
+
+.fu-navigation{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+    color: #fff;
+    font-family: 'RG UltraLight';
+    font-size: 1.6rem;
+}
+
+
+.joinUs ul li{
+    list-style: none;
+}
+
+.Ecotrack ul li{
+    list-style: none;
+}
+
+.Social ul li{
+    list-style: none;
+}
+
+.joinUs{
+    padding-left: 16.6rem;
+    padding-right: 10.6rem;
+}
+
+.joinUs ul li:nth-child(1){
+    opacity: 0.3;
+}
+
+.Ecotrack{
+    padding-right: 10.6rem;
+}
+
+.Ecotrack ul li:nth-child(1){
+    opacity: 0.3;
+}
+
+.Social ul li:nth-child(1){
+    opacity: 0.3;
+}
+
+
+/* Create Account Page + Log in Page*/
+.ca-wrapper,
+.li-wrapper
+{
+    display: flex;
+}
+
+.ca-left,
+.ca-right,
+.li-left,
+.li-right{
+    flex:1;
+    padding: 1rem;
+}
+
+.ca-left
+ {
+    background-image: url("../images/createAccImg.png");
+    height: 100vh;
+    font-size:1.8rem ;
+    background-size: cover;
+}
+
+.li-left{
+    background-image: url("../images/logInImg.png");
+    height: 100vh;
+    font-size:1.8rem ;
+    background-size: cover;
+}
+
+.ca-left a h1,
+.li-left a h1 {
+    color: #fff;
+    padding: 2.8rem;
+}
+
+.ca-right,
+.li-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ca-header,
+.li-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.ca-header h3,
+.li-header h3{
+    font-family: 'RG UltraLight';
+    font-size:2.6rem ;
+}
+
+.ca-header :nth-child(2),
+.li-header :nth-child(2){
+    opacity:0.3;
+}
+
+
+
+.ca-form,
+.li-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ca-form input,
+.li-form input{
+    width: 33.5rem;
+    height: 3.2rem;
+    margin-bottom: 1.3rem;
+    border-radius: 1.3rem;
+    border: 0.5px solid rgba(0, 0, 0, 0.10);
+    background: #F7F7F0;;
+}
+
+.ca-form button,
+.li-form button{
+    width: 33.5rem;
+    height: 3.2rem;
+    margin-bottom: 1.3rem;
+    border-radius: 100px;
+    background: #0096F7;;
+    border: none;
+    color: #FFF;
+}
+
+.ca-form p,
+.li-form p  {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 1.1rem;
+    font-family: 'RG UltraLight';
+}
+
+.ca-form span,
+.li-form span {
+    color: #0096F7;
+    cursor: pointer;
+}
+
+/* QUIZ PAGE */
+
+
+.quiz-categoreis{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 2rem 4rem;
+    font-family: 'RG UltraLight';
+    width: 20%
+}
+
+.quiz-categoreis p{
+    font-size: 0.8rem ;
+    opacity: 0.7;
+}
+
+.qz-button-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.qz-button-group button{
+    font-family: 'RG Rgular';
+    font-size: .8rem;
+    padding: .5rem 1rem;
+    margin-right: 0.5rem;
+    border: none;
+    border-radius: 6.25rem;
+    background: rgba(0, 0, 0, 0.10);;
+    color: #000;
+}
+
+.qz-button-group button:nth-child(1){
+    background: #0096F7;
+    color: #fff; 
+}
+
+.questionnaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    height: 100vh;
+    margin-top: 4.7rem;
+}
+
+.questionnaire h3 {
+    font-family: 'RG UltraLight';
+    font-size: 1.87rem;
+    padding-bottom: 2.6rem;
+}
+
+.qz-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+.qz-buttons button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    margin-bottom: 1.4rem;
+    padding: 1rem;
+    font-family: 'RG UltraLight';
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 6.25rem;
+    background: #0096F7;
+    color: #FFF;
+
+}
+
+.quiz h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'RG UltraLight';
+    align-items: center;
+    font-size: 1.8rem;
+    color: #001e4d;
+}
+
+.quiz{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    font-family: 'RG UltraLight';
+    padding: 1rem;
+    border: none;
+    border-radius: 2.5rem;
+    margin: 1rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]) {
+    background: #fff;
+    color: #0096F7;
+    border: 1px solid #0096F7 ;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+
+
+#next-btn {
+    background: #0096F7;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    display: none;
+
+}
+
+.correct {
+    background: #9aeabc;
+}
+
+.incorrect{
+    background: #ff9393;
+}
+
+
+
+
+/* DASHBOARD STYLES */
+
+.profImage{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 1.5rem;
+}
+
+.InnerProfileImg{
+    background-image: url("../images/profileImg.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1.3rem;
+}
+
+.sub-menu-wrap{
+    position: absolute;
+    top:8%;
+    right: 5%;
+    width: 17rem;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.sub-menu-wrap.open-menu {
+    max-height: 400px;
+}
+
+.sub-menu{
+    background: #F7F7F0;
+    padding: 1.5rem;
+    margin: 0.7rem;
+    border-radius: 8px;
+
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+}
+
+.user-info h2 {
+    font-family: 'RG Rgular';
+    font-size:1rem ;
+
+}
+
+.sub-menu hr{
+    border: 0;
+    height: 1.5px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.10);
+    margin: 1rem 0;
+}
+
+.sub-menu-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.sub-menu-link p {
+    width: 100%;
+    margin: 1rem;
+    font-family: "RG UltraLight";
+}
+
+.sub-menu-link p:hover{
+    font-family: "RG Rgular";
+}
+
+.cb-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+    background: #F7F7F0;
+    border-top-left-radius:6.25rem;
+    border-top-right-radius:6.25rem;
+ 
+}
+
+.cb-header{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding:4.5rem;
+}
+
+.cb-header h1 {
+    font-family: 'RG UltraLight';
+    font-size:3.25rem;
+}
+
+.cb-header p {
+    font-family: 'RG UltraLight';
+    font-size:1.1rem;
+}
+
+.cb-header p span {
+    font-family: 'RG Rgular';
+    color: #0096F7;
+}
+
+.cb-image{
+    background-image: url("../images/cb-group.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 28.5rem;
+    
+}
+
+.efb-background-container {
+    background:#F7F7F0 ;
+    
+}
+
+.efb-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #DFEEF1;
+    border-top-left-radius:6.25rem;
+    border-top-right-radius:6.25rem;
+}
+
+.efb-header{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.efb-header h3 {
+    display: flex;
+    padding:5.6rem 4.5rem 0 4.5rem;
+    font-family:'RG UltraLight';
+    font-size: 3.25rem;
+}
+
+.splitter{
+    display: flex;
+}
+
+.efb-left,
+.efb-right{
+    flex: 1;
+    padding:4.6rem 4.5rem 4rem 4.5rem;
+}
+
+.efb-left p{
+    font-size: 1.6rem;
+    font-family: 'RG UltraLight';
+    color: rgba(0, 0, 0, 0.35);
+    padding-bottom: 1rem;
+}
+
+.efb-left h3{
+    font-size: 4rem;
+    width: 50%;
+    font-family: 'RG UltraLight';
+    color: #000;
+    padding-bottom:8.1rem ;
+
+}
+
+.efb-left ul li{
+    list-style: circle;
+    padding-bottom:2rem;
+    font-family: 'RG UltraLight';
+    font-size: 1.2rem;
+}
+
+.efb-left ul{
+    margin-bottom: 6rem;
+}
+
+.efb-left span{
+    font-family: 'RG Rgular';
+    font-size: 1.2rem;
+    color: #0096F7;
+    cursor: pointer;
+}
+
+.efb-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.efb-img{
+    background-image: url("../images/efb-photo.png");
+    background-size:cover;
+    height:53vh;
+    width: 80%;
+    border-radius: 1rem;
+    }
+
+.efb-right p {
+    width: 80%;
+    padding-top: 3.5rem;
+    font-family:'RG UltraLight';
+    font-size: 1.3rem;
+}
+
+.efb-right button{
+    display: flex;
+    flex-direction: row;
+    width: 22%;
+    justify-content: center;
+    margin-top: 7rem;
+    border: none;
+    border-radius: 2rem;
+    padding: 10px 5px ;
+    background: #0096F7;
+    color: #FFF;
+    font-family:'RG UltraLight';
+}
+
+.ed-backgrdound{
+    background:#DFEEF1 ;
+}
+
+.ed-content-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #EAEADA;
+    border-top-left-radius:6.25rem;
+    border-top-right-radius:6.25rem;
+}
+
+.ed-content-container h1{
+    font-family: 'RG UltraLight';
+    font-size: 3.25rem;
+    padding:5.6rem 4.5rem 0 4.5rem;
+}
+
+.ed-content-container div{
+    display: flex;
+    background-image: url("../images/edContentImg.png");
+    background-size: cover;
+    margin:4rem 4.5rem ;
+    border-radius: 20px;
+    width: 90%;
+    height: 50vh;
+}
+
+.ed-content-container p{
+    font-family: 'RG UltraLight';
+    font-size: 1.6rem ;
+    padding-left: 4.5rem;
+    padding-bottom: 1rem;
+    color:rgba(0, 0, 0, 0.35); 
+}
+
+.ed-content-container h2{
+    font-family:'RG UltraLight';
+    font-size:5.5rem ;
+    padding-left: 4.5rem;
+    }
+
+.ed-content-container span {
+    font-family: 'RG Rgular';
+    font-size: 1.2rem;
+    color: #0096F7;
+    padding-left: 4.5rem;
+}
+
+.ed-content{
+    background: #EAEADA;
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 0 15rem 0;
+    
+}
+
+
+.ed-tips{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 2.9rem  4.5rem;    
+}
+
+.top-line,
+.bottom-line{
+height: 1px;
+background-color:rgba(0, 0, 0, 0.35);
+width: 91.5%;
+display: flex;
+flex-direction: row;
+margin: auto auto;
+}
+
+.tip p{
+    font-family: 'RG UltraLight';
+    font-size:1rem;
+    color: rgba(0, 0, 0, 0.35);
+}
+
+.tip h3 {
+    font-family: 'RG UltraLight';
+    font-size:2.5rem;
+    padding-bottom:4rem;
+}
+
+.tip span {
+    font-family:'RG UltraLight';
+    font-size: 1rem;
+    color: #0096F7;
+    cursor: pointer;
+}
+
+.border{
+    height: 25vh;
+    width: 1px;
+    background-color:rgba(0, 0, 0, 0.35);
+    margin: 0 1rem;
+}
+
+.image-filler{
+    width: 100%;
+    height: 100vh;
+}
+
+.ci-container{
+    display: flex;
+    flex-direction: column;
+    padding: 8rem;
+}
+
+.ci-header{
+    padding-left: 8.5rem ;
+    font-family: 'RG UltraLight';
+    font-size: 3.25rem;
+    padding-bottom:4rem ;
+}
+
+
+.ci-info{
+    display: flex;
+    flex: 1;
+}
+
+.ci-img{
+    display: flex;
+    background-image: url("../images/ci-food.png");
+    background-size: cover;
+    border-radius: 20px;
+    width: 60%;
+    height: 65vh;
+    margin-right: 3rem;
+}
+
+.ci-info-group{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-right: 2rem;
+    height: 50vh;
+
+}
+
+.ci-info-group h3 {
+    font-family: 'RG UltraLight';
+    font-size: 1.3rem;
+    padding-bottom: 44.5rem;
+}
+
+.ci-btn-group {
+    display: flex;
+    align-items: flex-end;
+    padding-left: 6rem;
+}
+
+.ci-btn-group ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ci-btn-group ul li {
+    list-style: none;
+    margin-right: 1rem;
+}
+
+.ci-btn-group ul li button{
+    padding: 0.5rem 1.063rem;
+    border-radius: 100px;
+    background: rgba(0, 0, 0, 0.10);
+    color: black;
+    font-family:'RG UltraLight';
+    border: none
+}
+
+.ci-btn-group ul li button:hover {
+    background: #0096F7;
+    color: #fff;
+}
+
+.ci-btn-group ul li button:active{
+    background: #0096F7;
+    color: #fff;
+}
+
+
+.cf-Container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cf-videoWall{
+    background: rgba(0, 0, 0, 0.10);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.eduHeader {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem  0;
+    height: 90vh;
+    }
+
+.eduHeader h3{
+    font-family: 'RG UltraLight';
+    font-size: 3.25rem;
+    padding: 2.5rem 0 4.5rem 4rem;
+}
+
+.edInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.edHeader{
+    width: 80%;
+    margin: 4rem 0 8.3rem 4.5rem;
+}
+
+.edHeader h3 {
+    font-family: 'RG UltraLight';
+    font-size: 4.6rem;
+    margin-bottom: 1.85rem;
+}
+
+.edHeader p{
+    font-family: 'RG Rgular';
+    font-size: 1.4rem; 
+    cursor: pointer;
+    color: #0096F7
+}
+
+.ed-subInfo{
+    display: flex;
+    flex:1;
+    margin: 0 4rem;
+}
+
+.subInfoRight {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+}
+
+.subInfoRight h2 {
+    font-family: 'RG UltraLight';
+    font-size: 1.6rem;
+    color:rgba(0, 0, 0, 0.35);
+}
+
+.subInfoRight h3{
+    font-family: 'RG UltraLight';
+    font-size: 4.6rem;
+    width: 85%;
+    margin-bottom: 4rem;
+}
+
+.subInfoRight p{
+    font-family: 'RG Rgular';
+    font-size: 1.4rem; 
+    cursor: pointer;
+    color: #0096F7
+}
+
+.edu-content{
+    margin: 5rem 0;
+}
+
+.efHeader {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 3.7rem;
+    margin-top: 5rem;
+    margin-bottom: 5.6rem;
+}
+
+.efHeader h3 {
+    font-family: 'RG UltraLight';
+    font-size: 3.25rem;
+    width: 30%;
+}
+
+.efHeader p{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    font-family: 'RG UltraLight';
+    font-size: 1.4rem;
+    margin-left: 38rem;
+    
+}
+
+.ef-border{
+    margin: auto auto;
+    width: 93%;
+    height: 1px;
+    background:rgba(0, 0, 0, 0.35); 
+}
+
+.ef-brands-wrapper {
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10rem 3.7rem
+}
+
+.ef-buttons-wrapper {
+    width: 40%;
+}
+
+.ef-buttons-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.ef-buttons-wrapper p{
+    font-family: 'RG UltraLight';
+    font-size: 1.4rem;
+    color:  rgba(0, 0, 0, 0.35);
+}
+
+.ef-button-group {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.ef-button-group :nth-child(1){
+    width: 40%;
+    border: none;
+    border-radius:100px ;
+    padding: .5rem;
+    margin-bottom: .7rem;
+}
+
+.ef-button-group :nth-child(2){
+    width: 100%;
+    border: none;
+    border-radius:100px ;
+    padding: .5rem;
+    margin-bottom: .7rem;
+}
+
+.ef-button-group :nth-child(3){
+    width: 90%;
+    border: none;
+    border-radius:100px ;
+    padding: .5rem;
+    margin-bottom: .7rem;
+}
+
+.ef-button-group :nth-child(4){
+    width: 60%;
+    border: none;
+    border-radius:100px ;
+    padding: .5rem;
+    margin-bottom: .7rem;
+}
+
+.ef-button-group button:hover{
+    color: #FFF;
+    background: #000;
+}
+
+.servicesWrapper p {
+    display: flex;
+    font-family: 'RG UltraLight';
+    font-size: 1.4rem;
+    color:  rgba(0, 0, 0, 0.35);
+}
+
+
